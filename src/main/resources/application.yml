@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+#Third Party Endpoints
+app:
+  employee-endpoint:
+    spring-mvc: http://localhost:8080/reactiveMongo/employees
